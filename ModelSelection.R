@@ -19,7 +19,7 @@ library(devtools)
 
 
 #read data
-DataSample<-read_excel("C:\\Users\\fresh\\OneDrive\\MSA\\R\\PayEquity\\DataSample.xlsx", sheet = 1)
+DataSample<-read_excel("DataSample_Final.xlsx", sheet = 1)
 
 #Clean up column names with Janitor Package
 DataSample<-clean_names(DataSample)
